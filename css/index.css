@@ -1,0 +1,84 @@
+html,body{
+	height: 100%;
+}
+.index-page{
+	height: 100%;
+	background: #ffe874;
+	overflow: hidden;
+}
+.cloud{
+	height: 1.86rem;
+	text-align: center;
+	margin-top: 0.7rem;
+	position: relative;
+}
+.cloud .cloud1{
+	width: 1.8rem;
+	position: absolute;
+	left: 0.9rem;
+	top: 0.83rem
+}
+.cloud .cloud2{
+	width: 1.72rem;
+	position: absolute;
+	right: 1.46rem;
+	top: 0;
+}
+.email{
+	width: 4.11rem;
+	height: 4.09rem;
+	background: url(../img/postbox.png) no-repeat;
+	background-size: 100%;
+	position: relative;
+	margin: 0.8rem auto 0;
+}
+.heart{
+	width: 0.52rem;
+	height: 0.46rem;
+	background: url(../img/heart.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	left: 1.05rem;
+	top: 0.7rem;
+}
+.flag{
+	width: 0.55rem;
+	height: 1.14rem;
+	background: url(../img/flag.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: -0.55rem;
+	right: 0.5rem;
+}
+.bird{
+	width: 0.74rem;
+	height: 0.69rem;
+	background: url(../img/bird.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: -0.69rem;
+	left: 1.7rem
+}
+.grass{
+	height: 1.69rem;
+	background: url(../img/glass.png) no-repeat;
+	background-size: 100%;
+	margin-top: -0.3rem;
+	position: relative;
+}
+.btn-group{
+	margin-top: 1rem;
+	text-align: center;
+}
+.btn{
+	width: 1.5rem;
+	height: 1.91rem;
+	background: url(../img/envelope.png) no-repeat;
+	background-size: 100%;
+	font-size: 0.32rem;
+	color: white;
+	text-align: center;
+	line-height: 2rem;
+	display: inline-block;
+	margin: 0 0.79rem;
+}
