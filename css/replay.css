@@ -1,0 +1,42 @@
+html,body{
+    height: 100%;
+}
+.replay-page{
+    height: 100%;
+    background: #fecfe3;
+    overflow: hidden;
+    position: relative;
+}
+.replay-bg{
+    width: 6.64rem;
+    height: 10.86rem;
+    margin:0 auto;
+    background: url(../img/message-bg.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.replay-para{
+    font-size:.34rem;
+    line-height:.54rem;
+    color:#333;
+    padding:1.6rem .8rem 1rem 1rem;
+}
+.replay-btn-wrap{
+    padding:0 .8rem 0 1rem;
+}
+.close-btn{
+    width: 1.6rem;
+    height: .84rem;
+    background: url(../img/close.png) no-repeat;
+    background-size: 100%;
+}
+.replay-btn{
+    width: 1.6rem;
+    height: .84rem;
+    background: url(../img/replay.png) no-repeat;
+    background-size: 100%;
+}
